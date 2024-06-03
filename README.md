@@ -32,7 +32,7 @@ cd ClassDiffusion
 pip install -r requirements.txt
 ```
 
-_Warning:Currently, ClassDiffusion don't support peft, please ensure peft is uninstalled in your environment, or check [PR](https://github.com/huggingface/diffusers/pull/7272). We will move forward with this PR merge soon._
+_Warning: Currently, ClassDiffusion don't support PEFT, please ensure PEFT is uninstalled in your environment, or check [PR](https://github.com/huggingface/diffusers/pull/7272). We will move forward with this PR merge soon._
 
 ### Training
 
