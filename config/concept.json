@@ -1,0 +1,12 @@
+[
+  {
+    "instance_prompt": "a photo of a <new1> teddy bear",
+    "class_prompt": "bear",
+    "instance_data_dir": "data/teddybear"
+  },
+  {
+    "instance_prompt": "a photo of a <new2> barn",
+    "class_prompt": "barn",
+    "instance_data_dir": "data/barn"
+  }
+]

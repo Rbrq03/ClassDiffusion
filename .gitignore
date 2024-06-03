@@ -1,0 +1,7 @@
+ckpt/
+log/
+wandb/
+__pycache__/
+*.gif
+result/
+
