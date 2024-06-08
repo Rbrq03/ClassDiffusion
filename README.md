@@ -19,6 +19,7 @@ Official imple. of ClassDiffusion: More Aligned Personalization Tuning with Expl
 
 ## News
 
+- [8 Jun. 2024] Code for BLIP2-T and Video Generation Realeased!
 - [3 Jun. 2024] Code Released!
 - [29 May. 2024] Paper Released!
 
@@ -91,7 +92,33 @@ image = pipeline(
 image.save("multi-subject.png")
 ```
 
-<!-- **BLIP2-T** -->
+**BLIP2-T**
+You can use following code:
+
+```
+from PIL import Image
+from utils.blip2t import BLIP2T
+
+blip2t = BLIP2T("Salesforce/blip-itm-large-coco", "cuda")
+
+prompt = "photo of a dog"
+image = Image.open("data/dog/00.jpg")
+
+score = blip2t.text_similarity(prompt, image)[0]
+score
+```
+
+or
+
+```
+python blip2t.py
+```
+
+**Video Generation**
+
+```
+python videogen.py
+```
 
 ## Results
 
@@ -110,12 +137,20 @@ image.save("multi-subject.png")
 <em></em>
 </p>
 
+**Video Generation Results**
+
+<p align="center">
+<img src="assert/img/video.jpg" width="1080px"/>  
+<br>
+<em></em>
+</p>
+
 ## TODO
 
 - [x] Training Code for ClassDiffusion
 - [x] Inference Code for ClassDiffusion
-- [ ] Pipeline for BLIP2-T Score
-- [ ] Inference Code for Video Generation with ClassDiffusion
+- [x] Pipeline for BLIP2-T Score
+- [x] Inference Code for Video Generation with ClassDiffusion
 
 ## Citation
 
@@ -134,7 +169,8 @@ If you make use of our work, please cite our paper.
 
 We thanks to the following repo for their excellent and well-documented code based:
 
-- [https://github.com/huggingface/diffusers](https://github.com/huggingface/diffusers)
-- [https://github.com/adobe-research/custom-diffusion](https://github.com/adobe-research/custom-diffusion)
-- [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
-- [https://github.com/google/dreambooth](https://github.com/google/dreambooth)
+- Diffusers: [https://github.com/huggingface/diffusers](https://github.com/huggingface/diffusers)
+- Custom Diffusion: [https://github.com/adobe-research/custom-diffusion](https://github.com/adobe-research/custom-diffusion)
+- Transformers: [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
+- DreamBooth: [https://github.com/google/dreambooth](https://github.com/google/dreambooth)
+- AnimateDiff: [https://github.com/guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff)

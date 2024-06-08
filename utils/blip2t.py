@@ -25,10 +25,13 @@ class BLIP2T:
             score: float
         """
         inputs = self.processor(image, prompt, return_tensors="pt").to(
-            "cuda", torch.float16
+            self.device, torch.float16
         )
         scores = self.model(**inputs, use_itm_head=False)[0]
 
-        scores = scores.detach().cpu().numpy()[0]
+        if self.device == "cpu":
+            scores = scores.detach().numpy()[0]
+        else:
+            scores = scores.detach().cpu().numpy()[0]
 
         return scores
