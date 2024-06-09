@@ -93,6 +93,7 @@ image.save("multi-subject.png")
 ```
 
 **BLIP2-T**
+
 You can use following code:
 
 ```
