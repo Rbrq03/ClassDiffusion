@@ -2,6 +2,8 @@
 
 Official imple. of ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance
 
+> Recent text-to-image customization works have been proven successful in generating images of given concepts by fine-tuning the diffusion models on a few examples. However, these methods tend to overfit the concepts, resulting in failure to create the concept under multiple conditions (_e.g._, headphone is missing when generating &ldquo;a &lt;sks&gt; dog wearing a headphone&rdquo;). Interestingly, we notice that the base model before fine-tuning exhibits the capability to compose the base concept with other elements (_e.g._, &ldquo;a dog wearing a headphone&rdquo;), implying that the compositional ability only disappears after personalization tuning. Inspired by this observation, we present ClassDiffusion, a simple technique that leverages a semantic preservation loss to explicitly regulate the concept space when learning the new concept. Despite its simplicity, this helps avoid semantic drift when fine-tuning on the target concepts. Extensive qualitative and quantitative experiments demonstrate that the use of semantic preservation loss effectively improves the compositional abilities of the fine-tune models. In response to the ineffective evaluation of CLIP-T metrics, we introduce BLIP2-T metric, a more equitable and effective evaluation metric for this particular domain. We also provide in-depth empirical study and theoretical analysis to better understand the role of the proposed loss. Lastly, we also extend our ClassDiffusion to personalized video generation, demonstrating its flexibility.
+
 ---
 
 **[ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance](https://arxiv.org/pdf/2405.17532)**
