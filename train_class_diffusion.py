@@ -1614,17 +1614,6 @@ def main(args):
                     del pipeline
                     torch.cuda.empty_cache()
 
-                if accelerator.is_main_process:
-                    if global_step % 50 == 0:
-                        subprocess.run(
-                            [
-                                "bash",
-                                "/opt/data/private/hjn/Start_scripts/clash_start.sh",
-                            ],
-                            check=True,
-                        )
-                        time.sleep(1)
-
     accelerator.wait_for_everyone()
     if accelerator.is_main_process:
         unet = unet.to(torch.float32)
