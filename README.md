@@ -123,6 +123,13 @@ python blip2t.py
 python videogen.py
 ```
 
+**Ckpt for quick test**
+
+|Concept(s)|Weight|
+|--|--|
+|dog|[weight](https://drive.google.com/drive/folders/12KhBmFCUb2opotOQeAH0-dvW9XArwukt?usp=drive_link)|
+|bear+barn|[weight](https://drive.google.com/drive/folders/1VQTvszl2FqKhc-9YaKsRTRV3qlhmOqK4?usp=drive_link)|
+
 ## Results
 
 **Single Concept Results**
