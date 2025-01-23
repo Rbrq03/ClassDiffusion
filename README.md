@@ -8,7 +8,7 @@ Official imple. of ClassDiffusion: More Aligned Personalization Tuning with Expl
 
 **[ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance](https://arxiv.org/pdf/2405.17532)**
 
-[Jiannan Huang](https://rbrq03.github.io/), [Jun Hao Liew](https://scholar.google.com.sg/citations?user=8gm-CYYAAAAJ), [Hanshu Yan](https://hanshuyan.github.io), [Yuyang Yin](https://yuyangyin.github.io), [Humphrey Shi](https://www.humphreyshi.com/), [Yao Zhao](http://mepro.bjtu.edu.cn/zhaoyao/index.htm), [Yunchao Wei](https://weiyc.github.io/index.html)
+[Jiannan Huang](https://rbrq03.github.io/), [Jun Hao Liew](https://scholar.google.com.sg/citations?user=8gm-CYYAAAAJ), [Hanshu Yan](https://hanshuyan.github.io), [Yuyang Yin](https://yuyangyin.github.io), [Yao Zhao](http://mepro.bjtu.edu.cn/zhaoyao/index.htm), [Humphrey Shi](https://www.humphreyshi.com/), [Yunchao Wei](https://weiyc.github.io/index.html)
 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://classdiffusion.github.io/)
 [![arXiv](https://img.shields.io/badge/arXiv-2405.17532-b31b1b.svg)](https://arxiv.org/pdf/2405.17532)
