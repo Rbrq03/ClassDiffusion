@@ -1,4 +1,4 @@
-# ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance
+# [ICLR 2025 ]ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance
 
 Official imple. of ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance
 
